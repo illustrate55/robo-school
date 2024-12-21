@@ -1,0 +1,48 @@
+body {
+    font-family: "Jost", serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.header {
+    background-color: #141024;
+}
+
+.nav__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 84.52px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+    color: white;
+}
+
+.nav__items {
+    display: flex;
+    gap: 40px;
+}
+
+.nav__links {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: white;
+}
+
+.link__number {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    color: white;
+}
