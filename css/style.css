@@ -1,3 +1,7 @@
+:root {
+    --accent-color: #D52027;
+}
+
 body {
     font-family: "Jost", serif;
 }
@@ -54,12 +58,12 @@ a {
 
 /* MAIN */
 
-.main__info-inner {
+.main__inner {
     display: flex;
     gap: 28px;
 }
 
-.main__info-text {
+.main__text {
     position: absolute;
 }
 
@@ -86,7 +90,7 @@ a {
     margin-top: 50px;
     display: inline-block;
     padding: 25px 54px 25px 54px;
-    background-color: #D52027;
+    background-color: var(--accent-color);
     font-weight: 400;
     font-size: 18px;
     line-height: 28.8px;
@@ -96,4 +100,44 @@ a {
 .main__img {
     position: relative;
     right: -550px;
+}
+
+/* INFO */
+
+.info {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.info__disc {
+    max-width: 891px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+}
+
+.info__disc span {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+}
+
+.info__number-inner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.info__number-title {
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 112px;
+    color: var(--accent-color);
+}
+
+.info__number-disc {
+    max-width: 260px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
 }
