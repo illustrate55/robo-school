@@ -4,6 +4,7 @@
 
 body {
     font-family: "Jost", serif;
+    color: #141024;
 }
 
 a {
@@ -140,4 +141,41 @@ a {
     font-weight: 400;
     font-size: 18px;
     line-height: 28.8px;
+}
+
+/* SKILLS */
+
+.section__skills {
+    background-color: #F9F9F9;
+}
+
+.skills {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.skills__title {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 80px;
+}
+
+.skills__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.skill__item-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38.4px;
+}
+
+.skill__item-disc {
+    max-width: 360px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+    margin-top: 20px;
 }
