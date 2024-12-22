@@ -11,6 +11,11 @@ a {
     background-color: #141024;
 }
 
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
 .nav__inner {
     display: flex;
     align-items: center;
@@ -45,4 +50,50 @@ a {
     font-size: 30px;
     line-height: 48px;
     color: white;
+}
+
+/* MAIN */
+
+.main__info-inner {
+    display: flex;
+    gap: 28px;
+}
+
+.main__info-text {
+    position: absolute;
+}
+
+.main__title {
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 112px;
+    color: white;
+    margin-top: 274px;
+    overflow:hidden;
+}
+
+.main__disc {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: white;
+    max-width: 478px;
+    overflow:hidden;
+}
+
+.btn {
+    margin-top: 50px;
+    display: inline-block;
+    padding: 25px 54px 25px 54px;
+    background-color: #D52027;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+    color: white;
+}
+
+.main__img {
+    position: relative;
+    right: -550px;
 }
