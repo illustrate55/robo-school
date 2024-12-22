@@ -179,3 +179,46 @@ a {
     line-height: 28.8px;
     margin-top: 20px;
 }
+
+.practic {
+    position: relative;
+}
+
+.info__tip {
+    position: absolute;
+    top: 14px;
+    left: 124px;
+    transform: translate(-50%, -50%);
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: #14102414;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+
+.info__tip::before {
+    content: 'i';
+    color: #141024;
+    font-size: 1.5rem;
+}
+
+.info__tip p {
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.6px;
+    width: 251px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    transform: translate(0px, -95px);
+    display: none;
+}
+
+.info__tip:hover p {
+    display: block;
+    transition: .2s ease;
+}
