@@ -124,8 +124,7 @@ a {
 }
 
 .info__number-inner {
-    display: flex;
-    justify-content: space-between;
+    column-count: 4;
     margin-top: 60px;
 }
 
@@ -161,8 +160,7 @@ a {
 }
 
 .skills__inner {
-    display: flex;
-    justify-content: space-between;
+    column-count: 3;
     margin-top: 60px;
 }
 
@@ -221,4 +219,44 @@ a {
 .info__tip:hover p {
     display: block;
     transition: .2s ease;
+}
+
+/* COACHES */
+
+.coaches {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.coaches__inner {
+    margin-top: 60px;
+    column-count: 3;
+}
+
+.coaches__title {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 80px;
+}
+
+.card__title {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38.4px;
+}
+
+.card__disc {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+}
+
+.card__link {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+    color: var(--accent-color);
 }
