@@ -260,3 +260,121 @@ a {
     line-height: 28.8px;
     color: var(--accent-color);
 }
+
+/* POPUP */
+
+.popup__bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .8);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 940px;
+    margin: 0 auto;
+    width: 940px;
+    height: 650px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: white;
+    transform: translate(-50%, -50%);
+}
+
+.popup__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popup__coaches-info {
+    display: flex;
+    align-items: flex-start;
+}
+
+.popup__img {
+    margin-right: 40px;
+}
+
+.popup__title {
+    margin-top: 0;
+}
+
+.social__networks-img {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.close__btn {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+    color: #141024B2;
+}
+
+.info__links {
+    display: flex;
+    gap: 180px;
+    padding-top: 40px;
+}
+
+.item__link {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.active {
+    color: var(--accent-color);
+}
+
+.info__links {
+    padding-bottom: 20px;
+    border-bottom: 1px #1410241C solid;
+}
+
+.popup__info-text {
+    overflow-y: scroll;
+    height: 320px;
+}
+
+.popup__info-text::-webkit-scrollbar {
+    height: 345px;
+    width: 5px;
+}
+
+.popup__info-text::-webkit-scrollbar-track {
+    background-color: #14102414;
+    border-radius: 40px;
+}
+
+.popup__info-text::-webkit-scrollbar-thumb {
+    background-color: #141024;
+    border-radius: 40px;
+}
+
+.popup__info-disc {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.popup__info-text__title {
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38.4px;
+}
+
+.popup__bg:target {
+    visibility: visible;
+    opacity: 1;
+}

@@ -95,7 +95,7 @@
             </div>
         </div>
     </section>
-    <section class="coaches">
+    <section id="coaches" class="coaches">
         <div class="container">
             <h2 class="coaches__title">Профессиональные тренеры</h2>
             <div class="coaches__inner">
@@ -103,19 +103,65 @@
                     <img src="img/coache.jpg" alt="COACHE" class="card__img">
                     <h4 class="card__title">Ирина Лайм</h4>
                     <p class="card__disc">преподаватель по робототехнике</p>
-                    <a href="#" class="card__link">Подробнее</a>
+                    <a href="#popup__bg" class="card__link open__popup">Подробнее</a>
                 </div>
                 <div class="coache__card">
                     <img src="img/coache-2.jpg" alt="COACHE" class="card__img">
                     <h4 class="card__title">Марина Орлова</h4>
                     <p class="card__disc">преподаватель по робототехнике</p>
-                    <a href="#" class="card__link">Подробнее</a>
+                    <a href="#popup__bg" class="card__link open__popup">Подробнее</a>
                 </div>
                 <div class="coache__card">
                     <img src="img/coache-3.jpg" alt="COACHE" class="card__img">
                     <h4 class="card__title">Максим Петров</h4>
                     <p class="card__disc">преподаватель по робототехнике</p>
-                    <a href="#" class="card__link">Подробнее</a>
+                    <a href="#popup__bg" class="card__link open__popup">Подробнее</a>
+                </div>
+            </div>
+
+            <div id="popup__bg" class="popup__bg">
+                <div class="popup">
+                    <div class="popup__inner">
+                        <div class="popup__coaches-info">
+                            <img src="img/popup-img-coache-1.png" alt="" class="popup__img">
+                            <div class="popup__text">
+                                <h4 class="card__title popup__title">Марина Орлова</h4>
+                                <p class="card__disc">преподаватель по робототехнике</p>
+                                <div class="social__networks-img">
+                                    <img src="img/facebook.svg" alt="FACEBOOK">
+                                    <img src="img/instagram.svg" alt="INSTAGRAM">
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#coaches" class="close__popup">Закрыть</a>
+                    </div>
+                    <div class="popup__info-inner">
+                        <ul class="info__links">
+                            <li>
+                                <a href="#" class="item__link active">Образование</a>
+                            </li>
+                            <li>
+                                <a href="#" class="item__link">Опыт работы</a>
+                            </li>
+                            <li>
+                                <a href="#" class="item__link">Награды</a>
+                            </li>
+                        </ul>
+                        <div class="popup__info-text">
+                            <p class="popup__info-disc">Сентябрь 1995 — Июнь 2000
+                                Санкт-Петербургский политехнический университет Петра Великого<br>
+                                Факультет: Компьютерных наук и технологий<br>
+                                Специальность: Математика и компьютерные науки<br>
+                                Форма обучения: Очная<br>
+                            </p>
+                            <h3 class="popup__info-text__title">Курсы и тренинги</h3>
+                            <p class="popup__info-disc">
+                                Ноябрь 2020 — Февраль 2021<br>
+                                Программа дополнительного образования «3D Моделирование»<br>
+                                Место проведения: Институт дополнительного образования «Политех»<br>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
