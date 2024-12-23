@@ -3,8 +3,13 @@
 }
 
 body {
+    overflow: visible;
     font-family: "Jost", serif;
     color: #141024;
+}
+
+body.locked {
+    overflow: hidden;
 }
 
 a {
@@ -264,14 +269,17 @@ a {
 /* POPUP */
 
 .popup__bg {
+    display: none;
     position: fixed;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
     background: rgba(0, 0, 0, .8);
-    visibility: hidden;
-    opacity: 0;
+}
+
+.popup__bg.active {
+    display: block;
 }
 
 .popup {
@@ -331,7 +339,7 @@ a {
     line-height: 32px;
 }
 
-.active {
+.link__active {
     color: var(--accent-color);
 }
 
@@ -372,9 +380,4 @@ a {
     font-weight: 600;
     font-size: 24px;
     line-height: 38.4px;
-}
-
-.popup__bg:target {
-    visibility: visible;
-    opacity: 1;
 }

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -103,19 +104,19 @@
                     <img src="img/coache.jpg" alt="COACHE" class="card__img">
                     <h4 class="card__title">Ирина Лайм</h4>
                     <p class="card__disc">преподаватель по робототехнике</p>
-                    <a href="#popup__bg" class="card__link open__popup">Подробнее</a>
+                    <a href="#" class="card__link">Подробнее</a>
                 </div>
                 <div class="coache__card">
                     <img src="img/coache-2.jpg" alt="COACHE" class="card__img">
                     <h4 class="card__title">Марина Орлова</h4>
                     <p class="card__disc">преподаватель по робототехнике</p>
-                    <a href="#popup__bg" class="card__link open__popup">Подробнее</a>
+                    <a href="#" id="open__popup" class="card__link open__popup">Подробнее</a>
                 </div>
                 <div class="coache__card">
                     <img src="img/coache-3.jpg" alt="COACHE" class="card__img">
                     <h4 class="card__title">Максим Петров</h4>
                     <p class="card__disc">преподаватель по робототехнике</p>
-                    <a href="#popup__bg" class="card__link open__popup">Подробнее</a>
+                    <a href="#" class="card__link">Подробнее</a>
                 </div>
             </div>
 
@@ -128,17 +129,21 @@
                                 <h4 class="card__title popup__title">Марина Орлова</h4>
                                 <p class="card__disc">преподаватель по робототехнике</p>
                                 <div class="social__networks-img">
-                                    <img src="img/facebook.svg" alt="FACEBOOK">
-                                    <img src="img/instagram.svg" alt="INSTAGRAM">
+                                    <a href="#">
+                                        <img src="img/facebook.svg" alt="FACEBOOK">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/instagram.svg" alt="INSTAGRAM">
+                                    </a>
                                 </div>
                             </div>
                         </div>
-                        <a href="#coaches" class="close__popup">Закрыть</a>
+                        <a href="#coaches" id="close__popup" class="close__popup">Закрыть</a>
                     </div>
                     <div class="popup__info-inner">
                         <ul class="info__links">
                             <li>
-                                <a href="#" class="item__link active">Образование</a>
+                                <a href="#" class="item__link link__active">Образование</a>
                             </li>
                             <li>
                                 <a href="#" class="item__link">Опыт работы</a>
