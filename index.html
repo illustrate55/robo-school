@@ -20,13 +20,13 @@
                 <a href="#" class="logo">ROBO SCHOOL</a>
                 <ul class="nav__items">
                     <li>
-                        <a class="nav__links" href="#">О школе</a>
+                        <a class="nav__links" href="#info">О школе</a>
                     </li>
                     <li>
-                        <a class="nav__links" href="#">Тренеры</a>
+                        <a class="nav__links" href="#coaches">Тренеры</a>
                     </li>
                     <li>
-                        <a class="nav__links" href="#">Стоимость</a>
+                        <a class="nav__links" href="#price">Стоимость</a>
                     </li>
                 </ul>
                 <a href="tel:+7 800 000 11 22" class="link__number">+7 800 000 11 22</a>
@@ -39,7 +39,7 @@
                     <div class="main__text">
                         <h1 class="main__title">ROBO SCHOOL</h1>
                         <p class="main__disc">Курсы повышения квалификации по робототехнике для педагогов начальной школы</p>
-                        <a href="#" class="btn">Записаться на курс</a>
+                        <a href="#price" class="btn">Записаться на курс</a>
                     </div>
                     <img src="img/portrait-main.png" alt="PORTRAIT" class="main__img">
                 </div>
@@ -47,7 +47,7 @@
         </main>
     </header>
     <!-- Здесь сделал информацию о школе -->
-    <section class="info">
+    <section id="info" class="info">
         <div class="container">
             <div class="info__inner">
                 <p class="info__disc"><span>Robo School</span> – учреждение для формирования кадрового педагогического резерва в сфере робототехники и программирования</p>
@@ -72,6 +72,7 @@
             </div>
         </div>
     </section>
+    <!-- Это блок с приобретенными навыками после прохождения курса -->
     <section class="section__skills">
         <div class="container">
             <div class="skills">
@@ -96,6 +97,7 @@
             </div>
         </div>
     </section>
+    <!-- Это блок с тренерами -->
     <section id="coaches" class="coaches">
         <div class="container">
             <h2 class="coaches__title">Профессиональные тренеры</h2>
@@ -167,6 +169,32 @@
                             </p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Это блок с ценами -->
+    <section id="price" class="price">
+        <div class="container">
+            <h2 class="main__title-price">Выберите нужный пакет</h2>
+            <div class="price__inner">
+                <div class="price__item price__pro">
+                    <h3 class="price__title">– PRO –</h3>
+                    <h2 class="price__price">20.000 ₽</h2>
+                    <p class="price__disc">УМК по робототетхнике и программированию<p>
+                    <a href="#" class="btn btn__bid">Оставить заявку</a>
+                </div>
+                <div class="price__item price__not-pro">
+                    <h3 class="price__title">– ROBO –</h3>
+                    <h2 class="price__price price__price-not__pro">15.000 ₽</h2>
+                    <p class="price__disc">УМК по робототетхнике<p>
+                    <a href="#" class="btn btn__bid btn__bid-not__pro">Оставить заявку</a>
+                </div>
+                <div class="price__item price__not-pro">
+                    <h3 class="price__title">– PROG –</h3>
+                    <h2 class="price__price price__price-not__pro">10.000 ₽</h2>
+                    <p class="price__disc">УМК по робототетхнике<p>
+                    <a href="#" class="btn btn__bid btn__bid-not__pro">Оставить заявку</a>
                 </div>
             </div>
         </div>

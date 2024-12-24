@@ -2,6 +2,10 @@
     --accent-color: #D52027;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     overflow: visible;
     font-family: "Jost", serif;
@@ -55,6 +59,11 @@ a {
     color: white;
 }
 
+.nav__links:hover {
+    color: rgb(204, 204, 204);
+    transition: .2s ease;
+}
+
 .link__number {
     font-weight: 600;
     font-size: 30px;
@@ -101,6 +110,11 @@ a {
     font-size: 18px;
     line-height: 28.8px;
     color: white;
+}
+
+.btn:hover {
+    background-color: #b41c21;
+    transition: .2s ease;
 }
 
 .main__img {
@@ -380,4 +394,74 @@ a {
     font-weight: 600;
     font-size: 24px;
     line-height: 38.4px;
+}
+
+/* PRICE */
+
+.price {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.main__title-price {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 80px;
+}
+
+.price__inner {
+    margin-top: 60px;
+    column-count: 3;
+}
+
+.price__item {
+    background-color: #141024;
+    max-width: 360px;
+    max-height: 500px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    color: white;
+}
+
+.price__not-pro {
+    background: none;
+    max-width: 360px;
+    max-height: 460px;
+    color: #141024;
+    border: #14102433 1px solid;
+}
+
+.price__title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+}
+
+.price__price {
+    margin-top: 83px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 80px;
+}
+
+.price__price-not__pro {
+    margin-top: 63px;
+}
+
+.price__disc {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+}
+
+.btn__bid {
+    margin: 0;
+    margin-top: 52px;
+}
+
+.btn__bid-not__pro {
+    margin-top: 61px;
 }
