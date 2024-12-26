@@ -280,6 +280,11 @@ a {
     color: var(--accent-color);
 }
 
+.card__link:hover {
+    color: #9c181d;
+    transition: .2s ease;
+}
+
 /* POPUP */
 
 .popup__bg {
@@ -464,4 +469,106 @@ a {
 
 .btn__bid-not__pro {
     margin-top: 61px;
+}
+
+/* FORM */
+
+.application-form {
+    background-color: var(--accent-color);
+    background-image: url(../img/form-bg_img.png);
+    padding-top: 87px;
+    padding-bottom: 87px;
+}
+
+.application-form__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.application-form__texts {
+    margin-top: 19px;
+    padding-left: 60px;
+}
+
+.application-form__title {
+    color: white;
+    max-width: 476px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 46.8px;
+}
+
+.application-form__disc {
+    color: white;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.application-form__form form {
+    max-width: 500px;
+    padding-right: 60px;
+}
+
+input{
+    display: block;
+    width: 478px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 20px;
+    border-radius: 0;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input::placeholder {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    width: 500px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: white;
+    background-color: #141024;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #241d3f;
+}
+
+.footer {
+    background-color: #141024;
+}
+
+.footer__inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 84.52px;
+}
+
+.footer__company p {
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    color: #FFFFFFB2;
 }
